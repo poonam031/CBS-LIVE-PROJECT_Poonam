@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { IDMASTER } from './entity/customer-id.entity';
 import { DAILYTRAN } from './entity/voucher.entity';
@@ -14,8 +15,8 @@ export const primaryDBConfig: TypeOrmModuleOptions = {
   host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: '20102003',
-  database: 'demo',
+  password: '12345678',
+  database: 'main_server',
   synchronize: false,
   logging: false,
   entities: [],

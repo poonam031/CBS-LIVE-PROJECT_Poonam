@@ -1,7 +1,8 @@
-import { INTCATEGORYMASTER } from 'src/entity//interest-category-master.entity';
-import { SCHEMAST } from 'src/entity//schemeParameters.entity';
-import { Column, Entity, Generated, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+/* eslint-disable prettier/prettier */
+import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { INTRATE } from '../entity/interest-rate.entity'
+import { SCHEMAST } from './schemeParameters.entity';
+import { INTCATEGORYMASTER } from './interest-category-master.entity';
 @Entity()
 export class INTRATEPATSCHEMES {
   @PrimaryGeneratedColumn()

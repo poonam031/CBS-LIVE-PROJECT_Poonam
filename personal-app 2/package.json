@@ -17,10 +17,16 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@nestjs/typeorm": "^11.0.0",
     "@tailwindcss/postcss": "^4.1.14",
     "daisyui": "^5.1.29",
+    "knex": "^3.1.0",
+    "mysql2": "^3.15.3",
+    "pg": "^8.16.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typeorm": "^0.3.27",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {

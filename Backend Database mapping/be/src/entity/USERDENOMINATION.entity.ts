@@ -1,6 +1,5 @@
-import { DENOMINATION } from 'src/entity//DENOMINATION.entity';
-
-import { Column, Entity, Generated, JoinColumn, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from 'typeorm';
+/* eslint-disable prettier/prettier */
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class USERDENOMINATION {
